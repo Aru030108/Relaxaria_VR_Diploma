@@ -18,9 +18,14 @@ public class MenuController : MonoBehaviour
 
     //GamePlay Settings Menu Control
     [Header("GamePlay Settings")]
-    [SerializeField] private Text controllerSenTextValue = null;
+    [SerializeField] private TMP_Text controllerSenTextValue = null;
     [SerializeField] private Slider controllerSenSlider = null;
     [SerializeField] private int defaultSen = 4;
+    public int mainControllerSen = 4;
+
+    //Toggle Settings (PlayGame Container)
+    [Header("Toggle Settings")]
+    [SerializeField] private Toggle invertYToggle = null;
 
     //--------no need-----------
     [Header("Levels To Load")]
@@ -85,7 +90,7 @@ public class MenuController : MonoBehaviour
 
 
     public float fadeDuration2 = 1f; // Продолжительность затухания
-    public int sceneIndex2 = 1; // Индекс первой сцены в build settings
+    //public int sceneIndex2 = 1; // Индекс первой сцены в build settings
 
     public void LoadFirstScene()
     {
@@ -108,8 +113,41 @@ public class MenuController : MonoBehaviour
         }
 
         // После того, как прозрачность достигла 0, загружаем первую сцену
-        SceneManager.LoadScene(sceneIndex2);
+        SceneManager.LoadScene(1);
     }
+
+
+    //-----------------------Transition - QUIT BUTTON MEDITATION---------------------------------------------
+
+
+    public float fadeDuration3 = 1f; // Продолжительность затухания
+    //public int sceneIndex2 = 1; // Индекс первой сцены в build settings
+
+    public void LoadZeroScene()
+    {
+        StartCoroutine(Transition3());
+    }
+
+    IEnumerator Transition3()
+    {
+        // Получаем компонент CanvasGroup для управления прозрачностью объекта
+        CanvasGroup canvasGroup = GetComponent<CanvasGroup>();
+
+        // Задаем начальное значение прозрачности (1 - полностью непрозрачный)
+        canvasGroup.alpha = 1;
+
+        // Плавно уменьшаем прозрачность до 0 за fadeDuration секунд
+        while (canvasGroup.alpha > 0)
+        {
+            canvasGroup.alpha -= Time.deltaTime / fadeDuration;
+            yield return null;
+        }
+
+        // После того, как прозрачность достигла 0, загружаем первую сцену
+        SceneManager.LoadScene(0);
+    }
+
+
 
     //---------------Volume Settings--------------------------------
     public void SetVolume(float volume)
@@ -134,6 +172,15 @@ public class MenuController : MonoBehaviour
             volumeTextValue.text = defaultVolume.ToString("0.0");
             VolumeApply();
         }
+        //reset for gameplay
+        if (MenuType == "Gameplay")
+        {
+            controllerSenTextValue.text = defaultSen.ToString("0");
+            controllerSenSlider.value = defaultSen;
+            mainControllerSen = defaultSen;
+            invertYToggle.isOn = false;
+            GameplayApply();
+        }
     }
 
     public IEnumerator ComfirmationBox()
@@ -146,7 +193,28 @@ public class MenuController : MonoBehaviour
 
     //--------------GamePLay Settings----------------------
 
+    //Controller Sensitivity
+    public void SetControllerSen(float sensitivity)
+    {
+        mainControllerSen = Mathf.RoundToInt(sensitivity);
+        controllerSenTextValue.text = sensitivity.ToString("0");
+    }
 
-
+    //GameplayApply
+    public void GameplayApply()
+    {
+        if (invertYToggle.isOn)
+        {
+            PlayerPrefs.SetInt("masterInvertY", 1);
+            //invert Y
+        }
+        else
+        {
+            PlayerPrefs.SetInt("masterInvertY", 0);
+            //not invert Y
+        }
+        PlayerPrefs.SetFloat("masterSen", mainControllerSen);
+        StartCoroutine (ComfirmationBox());
+    }
 
 }
