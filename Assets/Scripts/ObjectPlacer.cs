@@ -60,12 +60,12 @@ public class ObjectPlacer : MonoBehaviour
         if (Vector3.Distance(placedObject.transform.position, targetPosition.position) < 0.5f)
         {
             correctPlacements++;
-            feedbackText.text = "Правильно!";
+            feedbackText.text = "Right!";
             Destroy(placedObject); // Убираем объект после правильного размещения
         }
         else
         {
-            feedbackText.text = "Неправильно!";
+            feedbackText.text = "That`s wrong!";
         }
 
         // Проверка завершения игры
