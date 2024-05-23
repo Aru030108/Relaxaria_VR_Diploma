@@ -18,7 +18,7 @@ public class BreathingExercise : MonoBehaviour
     public Button startStopButton;
     public Renderer sphereRenderer;
     public Transform sphereTransform;
-    public TextMesh sphereText;
+    public TextMeshPro sphereText;
     public Slider progressBar; // Прогресс-бар
     public AudioSource backgroundMusic; // Фоновая музыка
     public AudioSource[] phaseSounds; // Звуки для каждой фазы
