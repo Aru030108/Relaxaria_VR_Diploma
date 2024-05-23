@@ -1784,11 +1784,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158707362}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 15.89}
+  m_LocalPosition: {x: 0, y: 0, z: 9.768262}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 464427473}
+  m_Father: {fileID: 1097648549}
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2026,7 +2026,7 @@ GameObject:
   - component: {fileID: 162657206}
   - component: {fileID: 162657205}
   m_Layer: 0
-  m_Name: Plane (1) - Medium
+  m_Name: Plane (1) - Medium 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2810,7 +2810,7 @@ GameObject:
   - component: {fileID: 287583213}
   - component: {fileID: 287583212}
   m_Layer: 0
-  m_Name: Plane (1) -  Small
+  m_Name: Plane (1) -  Small 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3068,7 +3068,7 @@ PrefabInstance:
     - target: {fileID: 4769098102207602867, guid: c91b6479bcc5dc94f8290551ae3e6d76,
         type: 3}
       propertyPath: m_Name
-      value: InstantTracking (5)
+      value: InstantTracking (5) Small Conus
       objectReference: {fileID: 0}
     - target: {fileID: 4769098102207602867, guid: c91b6479bcc5dc94f8290551ae3e6d76,
         type: 3}
@@ -3489,11 +3489,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372884236}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 27.21}
+  m_LocalPosition: {x: 0, y: 0, z: 9.718697}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 464427473}
+  m_Father: {fileID: 999808468}
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3660,11 +3660,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374950153}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 27.22}
+  m_LocalPosition: {x: 0, y: 0, z: 9.728694}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 464427473}
+  m_Father: {fileID: 999808468}
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3831,11 +3831,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379320269}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 15.81}
+  m_LocalPosition: {x: 0, y: 0, z: 9.688261}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 464427473}
+  m_Father: {fileID: 1097648549}
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4812,14 +4812,8 @@ Transform:
   - {fileID: 1106078368}
   - {fileID: 856748738}
   - {fileID: 42825021}
-  - {fileID: 158707363}
-  - {fileID: 374950154}
   - {fileID: 1024673109}
-  - {fileID: 1962926490}
-  - {fileID: 738617015}
   - {fileID: 91603606}
-  - {fileID: 379320270}
-  - {fileID: 372884237}
   m_Father: {fileID: 2140193927}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &464427474
@@ -5407,7 +5401,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514268242}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 3.44}
+  m_LocalPosition: {x: 0, y: 0, z: 3.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6303,7 +6297,7 @@ GameObject:
   - component: {fileID: 652457077}
   - component: {fileID: 652457076}
   m_Layer: 0
-  m_Name: Plane (1) - Small
+  m_Name: Plane (1) - Small 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6875,11 +6869,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738617014}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 27.21}
+  m_LocalPosition: {x: 0, y: 0, z: 9.718697}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 464427473}
+  m_Father: {fileID: 999808468}
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7738,7 +7732,7 @@ GameObject:
   - component: {fileID: 814089365}
   - component: {fileID: 814089364}
   m_Layer: 0
-  m_Name: Plane (1) - Big
+  m_Name: Plane (1) - Big 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8586,7 +8580,7 @@ PrefabInstance:
     - target: {fileID: 4257412417454173071, guid: ed79eaa9dbed71a46b42588537c577a7,
         type: 3}
       propertyPath: m_Name
-      value: VelocityTrackedCube (6)
+      value: VelocityTrackedCube (6) Small Cube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8596,6 +8590,12 @@ PrefabInstance:
 --- !u!4 &901603630 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4257412417454173056, guid: ed79eaa9dbed71a46b42588537c577a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 901603629}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &901603631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4257412417454173071, guid: ed79eaa9dbed71a46b42588537c577a7,
     type: 3}
   m_PrefabInstance: {fileID: 901603629}
   m_PrefabAsset: {fileID: 0}
@@ -8612,7 +8612,7 @@ GameObject:
   - component: {fileID: 908875154}
   - component: {fileID: 908875153}
   m_Layer: 0
-  m_Name: Plane (1) - Big
+  m_Name: Plane (1) - Big 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10017,6 +10017,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 926458689}
+  - {fileID: 374950154}
+  - {fileID: 738617015}
+  - {fileID: 372884237}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1014816520
@@ -10803,6 +10806,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1114470116}
+  - {fileID: 158707363}
+  - {fileID: 1962926490}
+  - {fileID: 379320270}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106078367
@@ -11284,7 +11290,7 @@ PrefabInstance:
     - target: {fileID: 7517549319329480230, guid: 10297a1bb8a48324da4743a14b7528ef,
         type: 3}
       propertyPath: m_Name
-      value: KinematicCube (6)
+      value: KinematicCube (6) Med Ring
       objectReference: {fileID: 0}
     - target: {fileID: 7517549319329480232, guid: 10297a1bb8a48324da4743a14b7528ef,
         type: 3}
@@ -12165,7 +12171,7 @@ PrefabInstance:
     - target: {fileID: 4257412417454173071, guid: ed79eaa9dbed71a46b42588537c577a7,
         type: 3}
       propertyPath: m_Name
-      value: VelocityTrackedCube (4)
+      value: VelocityTrackedCube (4) Big Cube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12175,6 +12181,12 @@ PrefabInstance:
 --- !u!4 &1215393784 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4257412417454173056, guid: ed79eaa9dbed71a46b42588537c577a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1215393783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1215393785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4257412417454173071, guid: ed79eaa9dbed71a46b42588537c577a7,
     type: 3}
   m_PrefabInstance: {fileID: 1215393783}
   m_PrefabAsset: {fileID: 0}
@@ -12259,7 +12271,7 @@ PrefabInstance:
     - target: {fileID: 4769098102207602867, guid: c91b6479bcc5dc94f8290551ae3e6d76,
         type: 3}
       propertyPath: m_Name
-      value: InstantTracking (6)
+      value: InstantTracking (6) Med Conus
       objectReference: {fileID: 0}
     - target: {fileID: 4769098102207602867, guid: c91b6479bcc5dc94f8290551ae3e6d76,
         type: 3}
@@ -13229,7 +13241,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289857139}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 8.51}
+  m_LocalPosition: {x: 0, y: 0, z: 8.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13450,7 +13462,7 @@ GameObject:
   - component: {fileID: 1329729449}
   - component: {fileID: 1329729448}
   m_Layer: 0
-  m_Name: Plane (1) - Medium
+  m_Name: Plane (1) - Medium 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13730,27 +13742,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   largeObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1215393785}
+  - {fileID: 1746594914}
+  - {fileID: 1870940293}
   mediumObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2122676695}
+  - {fileID: 1226752612}
+  - {fileID: 1121649470}
   smallObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 901603631}
+  - {fileID: 316800375}
+  - {fileID: 1670303575}
   positions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 814089363}
+  - {fileID: 908875152}
+  - {fileID: 1774999600}
+  - {fileID: 162657204}
+  - {fileID: 1329729447}
+  - {fileID: 2139685063}
+  - {fileID: 1676982318}
+  - {fileID: 287583211}
+  - {fileID: 652457075}
   feedbackText: {fileID: 0}
   congratsText: {fileID: 0}
 --- !u!1001 &1371610479
@@ -16408,7 +16420,7 @@ PrefabInstance:
     - target: {fileID: 7517549319329480230, guid: 10297a1bb8a48324da4743a14b7528ef,
         type: 3}
       propertyPath: m_Name
-      value: KinematicCube (5)
+      value: KinematicCube (5) Small Ring
       objectReference: {fileID: 0}
     - target: {fileID: 7517549319329480232, guid: 10297a1bb8a48324da4743a14b7528ef,
         type: 3}
@@ -16478,7 +16490,7 @@ GameObject:
   - component: {fileID: 1676982320}
   - component: {fileID: 1676982319}
   m_Layer: 0
-  m_Name: Plane (1) -  Small
+  m_Name: Plane (1) -  Small 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16652,7 +16664,7 @@ PrefabInstance:
     - target: {fileID: 4769098102207602867, guid: c91b6479bcc5dc94f8290551ae3e6d76,
         type: 3}
       propertyPath: m_Name
-      value: InstantTracking (4)
+      value: InstantTracking (4) Big Conus
       objectReference: {fileID: 0}
     - target: {fileID: 4769098102207602867, guid: c91b6479bcc5dc94f8290551ae3e6d76,
         type: 3}
@@ -17305,7 +17317,7 @@ GameObject:
   - component: {fileID: 1774999602}
   - component: {fileID: 1774999601}
   m_Layer: 0
-  m_Name: Plane (1) - Big
+  m_Name: Plane (1) - Big 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17899,7 +17911,7 @@ PrefabInstance:
     - target: {fileID: 7517549319329480230, guid: 10297a1bb8a48324da4743a14b7528ef,
         type: 3}
       propertyPath: m_Name
-      value: KinematicCube (4)
+      value: KinematicCube (4) Big Ring
       objectReference: {fileID: 0}
     - target: {fileID: 7517549319329480232, guid: 10297a1bb8a48324da4743a14b7528ef,
         type: 3}
@@ -18363,11 +18375,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962926489}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 15.81}
+  m_LocalPosition: {x: 0, y: 0, z: 9.688261}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 464427473}
+  m_Father: {fileID: 1097648549}
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -20223,7 +20235,7 @@ PrefabInstance:
     - target: {fileID: 4257412417454173071, guid: ed79eaa9dbed71a46b42588537c577a7,
         type: 3}
       propertyPath: m_Name
-      value: VelocityTrackedCube (5)
+      value: VelocityTrackedCube (5) Med Cube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20233,6 +20245,12 @@ PrefabInstance:
 --- !u!4 &2122676694 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4257412417454173056, guid: ed79eaa9dbed71a46b42588537c577a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2122676693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2122676695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4257412417454173071, guid: ed79eaa9dbed71a46b42588537c577a7,
     type: 3}
   m_PrefabInstance: {fileID: 2122676693}
   m_PrefabAsset: {fileID: 0}
@@ -20348,7 +20366,7 @@ GameObject:
   - component: {fileID: 2139685065}
   - component: {fileID: 2139685064}
   m_Layer: 0
-  m_Name: Plane (1) - Medium
+  m_Name: Plane (1) - Medium 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
