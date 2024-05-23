@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class ObjectPlacer : MonoBehaviour
 {
@@ -10,10 +10,15 @@ public class ObjectPlacer : MonoBehaviour
     public GameObject[] smallObjects; // Массив для маленьких объектов (кольца)
 
     public Transform[] positions; // Массив для позиций, куда будут размещены объекты
+    public Text feedbackText; // UI элемент для отображения сообщений
+    public Text congratsText; // UI элемент для отображения поздравлений
+
+    private int correctPlacements = 0; // Счетчик правильных размещений
 
     void Start()
     {
         PlaceObjects();
+        congratsText.gameObject.SetActive(false);
     }
 
     void PlaceObjects()
@@ -46,6 +51,28 @@ public class ObjectPlacer : MonoBehaviour
         {
             Instantiate(obj, positions[index].position, Quaternion.identity);
             index++;
+        }
+    }
+
+    public void CheckPlacement(GameObject placedObject, Transform targetPosition)
+    {
+        // Проверка правильности позиции
+        if (Vector3.Distance(placedObject.transform.position, targetPosition.position) < 0.5f)
+        {
+            correctPlacements++;
+            feedbackText.text = "Правильно!";
+            Destroy(placedObject); // Убираем объект после правильного размещения
+        }
+        else
+        {
+            feedbackText.text = "Неправильно!";
+        }
+
+        // Проверка завершения игры
+        if (correctPlacements == largeObjects.Length + mediumObjects.Length + smallObjects.Length)
+        {
+            congratsText.gameObject.SetActive(true);
+            feedbackText.text = ""; // Очистка текстового поля для сообщений
         }
     }
 }
