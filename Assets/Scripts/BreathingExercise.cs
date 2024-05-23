@@ -5,8 +5,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
-
 public class BreathingExercise : MonoBehaviour
 {
     public float inhaleDuration = 4.0f;
@@ -22,6 +20,9 @@ public class BreathingExercise : MonoBehaviour
     public Slider progressBar; // Прогресс-бар
     public AudioSource backgroundMusic; // Фоновая музыка
     public AudioSource[] phaseSounds; // Звуки для каждой фазы
+    public ParticleSystem inhaleParticles; // Частицы для вдоха
+    public ParticleSystem exhaleParticles; // Частицы для выдоха
+    public Light sceneLight; // Свет в сцене
 
     private float timer = 0.0f;
     private enum BreathingState { Inhale, Hold, Exhale }
@@ -41,6 +42,12 @@ public class BreathingExercise : MonoBehaviour
         if (progressBar != null)
         {
             progressBar.maxValue = inhaleDuration + holdDuration + exhaleDuration;
+        }
+
+        // Настройка света
+        if (sceneLight != null)
+        {
+            sceneLight.color = Color.green;
         }
     }
 
@@ -67,6 +74,7 @@ public class BreathingExercise : MonoBehaviour
                         UpdateSphereColor();
                         UpdateSphereText("Hold your breath");
                         PlayPhaseSound(1); // Звук для задержки дыхания
+                        if (inhaleParticles != null) inhaleParticles.Stop();
                     }
                     break;
                 case BreathingState.Hold:
@@ -77,6 +85,7 @@ public class BreathingExercise : MonoBehaviour
                         UpdateSphereColor();
                         UpdateSphereText("Exhale");
                         PlayPhaseSound(2); // Звук для выдоха
+                        if (exhaleParticles != null) exhaleParticles.Play();
                     }
                     break;
                 case BreathingState.Exhale:
@@ -88,6 +97,8 @@ public class BreathingExercise : MonoBehaviour
                         UpdateSphereColor();
                         UpdateSphereText("Inhale");
                         PlayPhaseSound(0); // Звук для вдоха
+                        if (exhaleParticles != null) exhaleParticles.Stop();
+                        if (inhaleParticles != null) inhaleParticles.Play();
                     }
                     break;
             }
@@ -108,12 +119,15 @@ public class BreathingExercise : MonoBehaviour
         {
             case BreathingState.Inhale:
                 color = Color.green;
+                if (sceneLight != null) sceneLight.color = Color.green;
                 break;
             case BreathingState.Hold:
                 color = Color.yellow;
+                if (sceneLight != null) sceneLight.color = Color.yellow;
                 break;
             case BreathingState.Exhale:
                 color = Color.blue;
+                if (sceneLight != null) sceneLight.color = Color.blue;
                 break;
         }
         sphereRenderer.material.color = color;
@@ -150,6 +164,7 @@ public class BreathingExercise : MonoBehaviour
         }
 
         PlayPhaseSound(0); // Звук для вдоха
+        if (inhaleParticles != null) inhaleParticles.Play();
     }
 
     public void StopBreathing()
@@ -163,6 +178,10 @@ public class BreathingExercise : MonoBehaviour
         {
             backgroundMusic.Stop();
         }
+
+        // Остановка частиц
+        if (inhaleParticles != null) inhaleParticles.Stop();
+        if (exhaleParticles != null) exhaleParticles.Stop();
     }
 
     public void ToggleBreathing()
