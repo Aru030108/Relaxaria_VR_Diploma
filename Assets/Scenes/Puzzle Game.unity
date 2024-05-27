@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 15750865}
   - component: {fileID: 15750866}
   m_Layer: 0
-  m_Name: Puzzle (7)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 17532139}
   - component: {fileID: 17532140}
   m_Layer: 0
-  m_Name: Puzzle (12)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1443,7 +1443,7 @@ GameObject:
   - component: {fileID: 61932790}
   - component: {fileID: 61932791}
   m_Layer: 0
-  m_Name: Puzzle (14)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2846,7 +2846,7 @@ GameObject:
   - component: {fileID: 140630706}
   - component: {fileID: 140630707}
   m_Layer: 0
-  m_Name: Puzzle (35)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3610,7 +3610,7 @@ GameObject:
   - component: {fileID: 200258753}
   - component: {fileID: 200258754}
   m_Layer: 0
-  m_Name: Puzzle (5)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4690,7 +4690,7 @@ GameObject:
   - component: {fileID: 290747373}
   - component: {fileID: 290747374}
   m_Layer: 0
-  m_Name: Puzzle (21)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13315,7 +13315,7 @@ GameObject:
   - component: {fileID: 431392168}
   - component: {fileID: 431392169}
   m_Layer: 0
-  m_Name: Puzzle (9)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14103,7 +14103,7 @@ GameObject:
   - component: {fileID: 484832854}
   - component: {fileID: 484832855}
   m_Layer: 0
-  m_Name: Puzzle (2)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15598,7 +15598,7 @@ GameObject:
   - component: {fileID: 539930324}
   - component: {fileID: 539930325}
   m_Layer: 0
-  m_Name: Puzzle (22)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17803,7 +17803,7 @@ GameObject:
   - component: {fileID: 643401234}
   - component: {fileID: 643401235}
   m_Layer: 0
-  m_Name: Puzzle (6)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18695,7 +18695,7 @@ GameObject:
   - component: {fileID: 681166948}
   - component: {fileID: 681166949}
   m_Layer: 0
-  m_Name: Puzzle (26)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18863,7 +18863,7 @@ GameObject:
   - component: {fileID: 706079712}
   - component: {fileID: 706079713}
   m_Layer: 0
-  m_Name: Puzzle (19)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19846,7 +19846,7 @@ GameObject:
   - component: {fileID: 754332798}
   - component: {fileID: 754332799}
   m_Layer: 0
-  m_Name: Puzzle (28)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21744,7 +21744,7 @@ GameObject:
   - component: {fileID: 871297973}
   - component: {fileID: 871297974}
   m_Layer: 0
-  m_Name: Puzzle (11)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23101,7 +23101,7 @@ GameObject:
   - component: {fileID: 940660960}
   - component: {fileID: 940660961}
   m_Layer: 0
-  m_Name: Puzzle (15)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23185,7 +23185,7 @@ GameObject:
   - component: {fileID: 949492789}
   - component: {fileID: 949492790}
   m_Layer: 0
-  m_Name: Puzzle (32)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23406,7 +23406,7 @@ GameObject:
   - component: {fileID: 955502481}
   - component: {fileID: 955502482}
   m_Layer: 0
-  m_Name: Puzzle (10)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24343,7 +24343,7 @@ GameObject:
   - component: {fileID: 1029642169}
   - component: {fileID: 1029642170}
   m_Layer: 0
-  m_Name: Puzzle (16)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24804,7 +24804,7 @@ GameObject:
   - component: {fileID: 1043000773}
   - component: {fileID: 1043000774}
   m_Layer: 0
-  m_Name: Puzzle (31)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31873,7 +31873,7 @@ GameObject:
   - component: {fileID: 1130250937}
   - component: {fileID: 1130250938}
   m_Layer: 0
-  m_Name: Puzzle (25)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32455,7 +32455,7 @@ GameObject:
   - component: {fileID: 1152170257}
   - component: {fileID: 1152170258}
   m_Layer: 0
-  m_Name: Puzzle (13)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32638,7 +32638,7 @@ GameObject:
   - component: {fileID: 1153920688}
   - component: {fileID: 1153920689}
   m_Layer: 0
-  m_Name: Puzzle (8)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32905,7 +32905,7 @@ GameObject:
   - component: {fileID: 1163639019}
   - component: {fileID: 1163639020}
   m_Layer: 0
-  m_Name: Puzzle (27)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33089,7 +33089,7 @@ GameObject:
   - component: {fileID: 1175628963}
   - component: {fileID: 1175628964}
   m_Layer: 0
-  m_Name: Puzzle (23)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35116,7 +35116,7 @@ GameObject:
   - component: {fileID: 1298220917}
   - component: {fileID: 1298220918}
   m_Layer: 0
-  m_Name: Puzzle (17)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35654,7 +35654,7 @@ GameObject:
   - component: {fileID: 1314156390}
   - component: {fileID: 1314156391}
   m_Layer: 0
-  m_Name: Puzzle (30)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37640,7 +37640,7 @@ GameObject:
   - component: {fileID: 1425537900}
   - component: {fileID: 1425537901}
   m_Layer: 0
-  m_Name: Puzzle (29)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41310,7 +41310,7 @@ GameObject:
   - component: {fileID: 1586942835}
   - component: {fileID: 1586942836}
   m_Layer: 0
-  m_Name: Puzzle (24)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41478,7 +41478,7 @@ GameObject:
   - component: {fileID: 1603658624}
   - component: {fileID: 1603658625}
   m_Layer: 0
-  m_Name: Puzzle (34)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43966,7 +43966,7 @@ GameObject:
   - component: {fileID: 1784285374}
   - component: {fileID: 1784285375}
   m_Layer: 0
-  m_Name: Puzzle (1)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44149,7 +44149,7 @@ GameObject:
   - component: {fileID: 1805526241}
   - component: {fileID: 1805526242}
   m_Layer: 0
-  m_Name: Puzzle (33)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47214,7 +47214,7 @@ GameObject:
   - component: {fileID: 1956774149}
   - component: {fileID: 1956774150}
   m_Layer: 0
-  m_Name: Puzzle (4)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48082,7 +48082,7 @@ GameObject:
   - component: {fileID: 1994825623}
   - component: {fileID: 1994825624}
   m_Layer: 0
-  m_Name: Puzzle (3)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48663,7 +48663,7 @@ GameObject:
   - component: {fileID: 2041655288}
   - component: {fileID: 2041655289}
   m_Layer: 0
-  m_Name: Puzzle (20)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50414,7 +50414,7 @@ GameObject:
   - component: {fileID: 2140704889}
   - component: {fileID: 2140704890}
   m_Layer: 0
-  m_Name: Puzzle (18)
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
