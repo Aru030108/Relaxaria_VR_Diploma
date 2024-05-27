@@ -7022,7 +7022,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &173736667
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39666,6 +39666,7 @@ GameObject:
   - component: {fileID: 1314213602}
   - component: {fileID: 1314213601}
   - component: {fileID: 1314213600}
+  - component: {fileID: 1314213603}
   m_Layer: 0
   m_Name: Start_Stop_Button
   m_TagString: Untagged
@@ -39714,9 +39715,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.9150943, g: 0.5451205, b: 0.26330543, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.91764706, g: 0.54901963, b: 0.26666668, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -39735,7 +39736,67 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1314213601}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1123501779}
+        m_TargetAssemblyTypeName: BreathingExercise, Assembly-CSharp
+        m_MethodName: ToggleBreathing
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1123501784}
+        m_TargetAssemblyTypeName: BreathingExercise, Assembly-CSharp
+        m_MethodName: ToggleBreathing
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1123501783}
+        m_TargetAssemblyTypeName: BreathingExercise, Assembly-CSharp
+        m_MethodName: ToggleBreathing
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1123501782}
+        m_TargetAssemblyTypeName: BreathingExercise, Assembly-CSharp
+        m_MethodName: ToggleBreathing
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1123501781}
+        m_TargetAssemblyTypeName: BreathingExercise, Assembly-CSharp
+        m_MethodName: ToggleBreathing
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1314213601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39871,6 +39932,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1314213603
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314213598}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.906669, y: 2.1949718, z: 0.0000030715769}
+  m_Center: {x: -4.953304, y: 1.0974706, z: -0.00005949937}
 --- !u!1001 &1316647315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47265,7 +47347,7 @@ MonoBehaviour:
   exhaleDuration: 4
   minScale: 0.5
   maxScale: 2
-  startStopButton: {fileID: 173736668}
+  startStopButton: {fileID: 1314213600}
   sphereRenderer: {fileID: 1528732145}
   sphereTransform: {fileID: 1528732147}
   sphereText: {fileID: 1004665563}
@@ -53626,7 +53708,7 @@ MonoBehaviour:
   exhaleDuration: 4
   minScale: 0.5
   maxScale: 2
-  startStopButton: {fileID: 0}
+  startStopButton: {fileID: 1314213600}
   sphereRenderer: {fileID: 0}
   sphereTransform: {fileID: 0}
   sphereText: {fileID: 0}
