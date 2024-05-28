@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro; // Добавьте эту строку
 
 public class PuzzleManager : MonoBehaviour
 {
     public GameObject puzzlePiecePrefab; // Префаб куба
     public int puzzleSize = 4; // Размер пазла (например, 4x4)
     public float pieceSize = 1.0f; // Размер одной части пазла
-    public Text congratsText; // Текст поздравления
+    public TextMeshPro congratsText; // Текст поздравления
 
     private List<GameObject> puzzlePieces = new List<GameObject>();
     private Vector3[] correctPositions;
