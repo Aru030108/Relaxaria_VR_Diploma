@@ -21,7 +21,7 @@ public class StartMenuGamesTransitions : MonoBehaviour
 
     public void GoToMeditation()
     {
-        SceneNavigator.singleton.GoToSceneAsync(5);
+        SceneNavigator.singleton.GoToSceneAsync(4);
     }
 
     public void GoToLogicGame()
@@ -31,7 +31,7 @@ public class StartMenuGamesTransitions : MonoBehaviour
 
     public void GoToPuzzleGame()
     {
-        SceneNavigator.singleton.GoToSceneAsync(4);
+        SceneNavigator.singleton.GoToSceneAsync(3);
     }
 
     public void QuitGame()
