@@ -460,7 +460,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &17532138
 GameObject:
@@ -544,7 +544,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &23454926
 GameObject:
@@ -1306,6 +1306,7 @@ GameObject:
   - component: {fileID: 60265724}
   - component: {fileID: 60265725}
   - component: {fileID: 60265726}
+  - component: {fileID: 60265727}
   m_Layer: 0
   m_Name: Piece_0 (28)
   m_TagString: Untagged
@@ -1432,6 +1433,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &60265727
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60265723}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &61932789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,7 +1527,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &71820401
 GameObject:
@@ -1881,6 +1894,7 @@ GameObject:
   - component: {fileID: 88146526}
   - component: {fileID: 88146527}
   - component: {fileID: 88146528}
+  - component: {fileID: 88146529}
   m_Layer: 0
   m_Name: Piece_0 (16)
   m_TagString: Untagged
@@ -2007,6 +2021,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &88146529
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88146525}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &93503674
 GameObject:
   m_ObjectHideFlags: 0
@@ -2917,7 +2943,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &141071951
 GameObject:
@@ -2930,6 +2956,7 @@ GameObject:
   - component: {fileID: 141071952}
   - component: {fileID: 141071953}
   - component: {fileID: 141071954}
+  - component: {fileID: 141071955}
   m_Layer: 0
   m_Name: Piece_0 (34)
   m_TagString: Untagged
@@ -3056,6 +3083,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &141071955
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141071951}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &152735788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3681,7 +3720,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &210950415
 PrefabInstance:
@@ -4118,6 +4157,7 @@ GameObject:
   - component: {fileID: 254874792}
   - component: {fileID: 254874793}
   - component: {fileID: 254874794}
+  - component: {fileID: 254874795}
   m_Layer: 0
   m_Name: Piece_0 (4)
   m_TagString: Untagged
@@ -4244,6 +4284,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &254874795
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254874791}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &266653370
 GameObject:
   m_ObjectHideFlags: 0
@@ -4761,7 +4813,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &297682541
 PrefabInstance:
@@ -5556,6 +5608,7 @@ GameObject:
   - component: {fileID: 336087119}
   - component: {fileID: 336087120}
   - component: {fileID: 336087121}
+  - component: {fileID: 336087122}
   m_Layer: 0
   m_Name: Piece_0 (31)
   m_TagString: Untagged
@@ -5682,6 +5735,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &336087122
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336087118}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &344314775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12300,6 +12365,7 @@ GameObject:
   - component: {fileID: 369223824}
   - component: {fileID: 369223825}
   - component: {fileID: 369223826}
+  - component: {fileID: 369223827}
   m_Layer: 0
   m_Name: Piece_0 (2)
   m_TagString: Untagged
@@ -12426,6 +12492,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &369223827
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369223823}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &373562783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12521,6 +12599,7 @@ GameObject:
   - component: {fileID: 384172056}
   - component: {fileID: 384172057}
   - component: {fileID: 384172058}
+  - component: {fileID: 384172059}
   m_Layer: 0
   m_Name: Piece_0 (8)
   m_TagString: Untagged
@@ -12647,6 +12726,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &384172059
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384172055}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &389794570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12826,6 +12917,7 @@ GameObject:
   - component: {fileID: 395084651}
   - component: {fileID: 395084652}
   - component: {fileID: 395084653}
+  - component: {fileID: 395084654}
   m_Layer: 0
   m_Name: Piece_0 (32)
   m_TagString: Untagged
@@ -12952,6 +13044,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &395084654
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395084650}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &395265242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13386,7 +13490,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &436375614
 PrefabInstance:
@@ -13882,6 +13986,7 @@ GameObject:
   - component: {fileID: 464717452}
   - component: {fileID: 464717453}
   - component: {fileID: 464717454}
+  - component: {fileID: 464717455}
   m_Layer: 0
   m_Name: Piece_0 (35)
   m_TagString: Untagged
@@ -14008,6 +14113,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &464717455
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464717451}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &473378236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14174,7 +14291,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &486752246
 PrefabInstance:
@@ -14571,7 +14688,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &514509106
 PrefabInstance:
@@ -15669,7 +15786,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &556131160
 PrefabInstance:
@@ -17874,7 +17991,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &655912673
 GameObject:
@@ -18766,7 +18883,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &688515677
 PrefabInstance:
@@ -18934,7 +19051,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &708083579
 GameObject:
@@ -19917,7 +20034,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &758796808
 PrefabInstance:
@@ -20014,6 +20131,7 @@ GameObject:
   - component: {fileID: 761942203}
   - component: {fileID: 761942204}
   - component: {fileID: 761942205}
+  - component: {fileID: 761942206}
   m_Layer: 0
   m_Name: Piece_0 (9)
   m_TagString: Untagged
@@ -20140,6 +20258,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &761942206
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761942202}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &769126385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20240,6 +20370,7 @@ GameObject:
   - component: {fileID: 780442383}
   - component: {fileID: 780442384}
   - component: {fileID: 780442385}
+  - component: {fileID: 780442386}
   m_Layer: 0
   m_Name: Piece_0 (3)
   m_TagString: Untagged
@@ -20366,6 +20497,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &780442386
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780442382}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &781800887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21222,6 +21365,7 @@ GameObject:
   - component: {fileID: 860011483}
   - component: {fileID: 860011484}
   - component: {fileID: 860011485}
+  - component: {fileID: 860011486}
   m_Layer: 0
   m_Name: Piece_0 (14)
   m_TagString: Untagged
@@ -21348,6 +21492,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &860011486
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860011482}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &862182799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21815,7 +21971,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &871458604
 PrefabInstance:
@@ -22343,6 +22499,7 @@ GameObject:
   - component: {fileID: 897502699}
   - component: {fileID: 897502700}
   - component: {fileID: 897502701}
+  - component: {fileID: 897502702}
   m_Layer: 0
   m_Name: Piece_0 (13)
   m_TagString: Untagged
@@ -22469,6 +22626,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &897502702
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897502698}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &900591290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23172,7 +23341,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &949492788
 GameObject:
@@ -23256,7 +23425,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &950035186
 GameObject:
@@ -23269,6 +23438,7 @@ GameObject:
   - component: {fileID: 950035187}
   - component: {fileID: 950035188}
   - component: {fileID: 950035189}
+  - component: {fileID: 950035190}
   m_Layer: 0
   m_Name: Piece_0 (12)
   m_TagString: Untagged
@@ -23395,6 +23565,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &950035190
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950035186}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &955502480
 GameObject:
   m_ObjectHideFlags: 0
@@ -23477,7 +23659,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &958799861
 PrefabInstance:
@@ -24414,7 +24596,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &1035784504
 GameObject:
@@ -24875,7 +25057,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &1052125941
 PrefabInstance:
@@ -25349,6 +25531,7 @@ GameObject:
   - component: {fileID: 1086192946}
   - component: {fileID: 1086192947}
   - component: {fileID: 1086192948}
+  - component: {fileID: 1086192949}
   m_Layer: 0
   m_Name: Piece_0
   m_TagString: Untagged
@@ -25475,6 +25658,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1086192949
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086192945}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &1095762398
 GameObject:
   m_ObjectHideFlags: 0
@@ -25486,6 +25681,7 @@ GameObject:
   - component: {fileID: 1095762399}
   - component: {fileID: 1095762400}
   - component: {fileID: 1095762401}
+  - component: {fileID: 1095762402}
   m_Layer: 0
   m_Name: Piece_0 (23)
   m_TagString: Untagged
@@ -25612,6 +25808,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1095762402
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095762398}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1116349430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31944,7 +32152,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &1133383628
 PrefabInstance:
@@ -32526,7 +32734,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &1152832815
 PrefabInstance:
@@ -32709,7 +32917,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &1160489694
 PrefabInstance:
@@ -32976,7 +33184,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!4 &1173827101 stripped
 Transform:
@@ -33160,7 +33368,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &1188199507
 GameObject:
@@ -33173,6 +33381,7 @@ GameObject:
   - component: {fileID: 1188199508}
   - component: {fileID: 1188199509}
   - component: {fileID: 1188199510}
+  - component: {fileID: 1188199511}
   m_Layer: 0
   m_Name: Piece_0 (18)
   m_TagString: Untagged
@@ -33299,6 +33508,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1188199511
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188199507}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &1190804657
 GameObject:
   m_ObjectHideFlags: 0
@@ -33674,6 +33895,7 @@ GameObject:
   - component: {fileID: 1202609488}
   - component: {fileID: 1202609489}
   - component: {fileID: 1202609490}
+  - component: {fileID: 1202609491}
   m_Layer: 0
   m_Name: Piece_0 (1)
   m_TagString: Untagged
@@ -33800,6 +34022,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1202609491
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202609487}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &1208106939
 GameObject:
   m_ObjectHideFlags: 0
@@ -33811,6 +34045,7 @@ GameObject:
   - component: {fileID: 1208106940}
   - component: {fileID: 1208106941}
   - component: {fileID: 1208106942}
+  - component: {fileID: 1208106943}
   m_Layer: 0
   m_Name: Piece_0 (11)
   m_TagString: Untagged
@@ -33937,6 +34172,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1208106943
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208106939}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1215690939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34200,6 +34447,7 @@ GameObject:
   - component: {fileID: 1234465484}
   - component: {fileID: 1234465485}
   - component: {fileID: 1234465486}
+  - component: {fileID: 1234465487}
   m_Layer: 0
   m_Name: Piece_0 (22)
   m_TagString: Untagged
@@ -34326,6 +34574,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1234465487
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234465483}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1238176991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35187,7 +35447,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &1300938300
 PrefabInstance:
@@ -35725,7 +35985,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &1322988448
 PrefabInstance:
@@ -35837,6 +36097,7 @@ GameObject:
   - component: {fileID: 1329597080}
   - component: {fileID: 1329597081}
   - component: {fileID: 1329597082}
+  - component: {fileID: 1329597083}
   m_Layer: 0
   m_Name: Piece_0 (7)
   m_TagString: Untagged
@@ -35963,6 +36224,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1329597083
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329597079}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1335624926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36452,6 +36725,7 @@ GameObject:
   - component: {fileID: 1372856534}
   - component: {fileID: 1372856535}
   - component: {fileID: 1372856536}
+  - component: {fileID: 1372856537}
   m_Layer: 0
   m_Name: Piece_0 (15)
   m_TagString: Untagged
@@ -36578,6 +36852,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1372856537
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372856533}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1382443447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36895,6 +37181,7 @@ GameObject:
   - component: {fileID: 1395209562}
   - component: {fileID: 1395209563}
   - component: {fileID: 1395209564}
+  - component: {fileID: 1395209565}
   m_Layer: 0
   m_Name: Piece_0 (27)
   m_TagString: Untagged
@@ -37021,6 +37308,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1395209565
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395209561}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1398591034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37335,6 +37634,7 @@ GameObject:
   - component: {fileID: 1416251907}
   - component: {fileID: 1416251908}
   - component: {fileID: 1416251909}
+  - component: {fileID: 1416251910}
   m_Layer: 0
   m_Name: Piece_0 (17)
   m_TagString: Untagged
@@ -37461,6 +37761,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1416251910
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416251906}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1416813540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37711,7 +38023,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1 &1425933853
 GameObject:
@@ -38285,6 +38597,7 @@ GameObject:
   - component: {fileID: 1433436618}
   - component: {fileID: 1433436619}
   - component: {fileID: 1433436620}
+  - component: {fileID: 1433436621}
   m_Layer: 0
   m_Name: Piece_0 (5)
   m_TagString: Untagged
@@ -38411,6 +38724,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1433436621
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433436617}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &1433452809
 GameObject:
   m_ObjectHideFlags: 0
@@ -38730,6 +39055,7 @@ GameObject:
   - component: {fileID: 1479437844}
   - component: {fileID: 1479437845}
   - component: {fileID: 1479437846}
+  - component: {fileID: 1479437847}
   m_Layer: 0
   m_Name: Piece_0 (33)
   m_TagString: Untagged
@@ -38856,6 +39182,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1479437847
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479437843}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1486062599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38951,6 +39289,7 @@ GameObject:
   - component: {fileID: 1486777967}
   - component: {fileID: 1486777968}
   - component: {fileID: 1486777969}
+  - component: {fileID: 1486777970}
   m_Layer: 0
   m_Name: Piece_0 (30)
   m_TagString: Untagged
@@ -39077,6 +39416,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1486777970
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486777966}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &1492709573
 GameObject:
   m_ObjectHideFlags: 0
@@ -39088,6 +39439,7 @@ GameObject:
   - component: {fileID: 1492709574}
   - component: {fileID: 1492709575}
   - component: {fileID: 1492709576}
+  - component: {fileID: 1492709577}
   m_Layer: 0
   m_Name: Piece_0 (20)
   m_TagString: Untagged
@@ -39214,6 +39566,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1492709577
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492709573}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!4 &1499744772 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b,
@@ -39513,6 +39877,7 @@ GameObject:
   - component: {fileID: 1531540500}
   - component: {fileID: 1531540501}
   - component: {fileID: 1531540502}
+  - component: {fileID: 1531540503}
   m_Layer: 0
   m_Name: Piece_0 (24)
   m_TagString: Untagged
@@ -39639,6 +40004,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1531540503
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531540499}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1532719256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40545,6 +40922,7 @@ GameObject:
   - component: {fileID: 1553181549}
   - component: {fileID: 1553181550}
   - component: {fileID: 1553181551}
+  - component: {fileID: 1553181552}
   m_Layer: 0
   m_Name: Piece_0 (21)
   m_TagString: Untagged
@@ -40671,6 +41049,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1553181552
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553181548}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!4 &1556331276 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1710826426278415097, guid: 76f538fcfff666d4894fa169e7c14328,
@@ -41381,7 +41771,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &1603448553
 PrefabInstance:
@@ -41549,7 +41939,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!4 &1631184789 stripped
 Transform:
@@ -42072,6 +42462,7 @@ GameObject:
   - component: {fileID: 1668609207}
   - component: {fileID: 1668609208}
   - component: {fileID: 1668609209}
+  - component: {fileID: 1668609210}
   m_Layer: 0
   m_Name: Piece_0 (26)
   m_TagString: Untagged
@@ -42198,6 +42589,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1668609210
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668609206}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &1671736425
 GameObject:
   m_ObjectHideFlags: 0
@@ -42872,6 +43275,7 @@ GameObject:
   - component: {fileID: 1690702909}
   - component: {fileID: 1690702910}
   - component: {fileID: 1690702911}
+  - component: {fileID: 1690702912}
   m_Layer: 0
   m_Name: Piece_0 (25)
   m_TagString: Untagged
@@ -42998,6 +43402,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1690702912
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690702908}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1699661666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43559,6 +43975,7 @@ GameObject:
   - component: {fileID: 1733866213}
   - component: {fileID: 1733866214}
   - component: {fileID: 1733866215}
+  - component: {fileID: 1733866216}
   m_Layer: 0
   m_Name: Piece_0 (6)
   m_TagString: Untagged
@@ -43685,6 +44102,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1733866216
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733866212}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &1751646196
 GameObject:
   m_ObjectHideFlags: 0
@@ -43696,6 +44125,7 @@ GameObject:
   - component: {fileID: 1751646197}
   - component: {fileID: 1751646198}
   - component: {fileID: 1751646199}
+  - component: {fileID: 1751646200}
   m_Layer: 0
   m_Name: Piece_0 (19)
   m_TagString: Untagged
@@ -43822,6 +44252,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1751646200
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751646196}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1753902487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44037,7 +44479,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &1785474411
 PrefabInstance:
@@ -44220,7 +44662,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &1805719801
 PrefabInstance:
@@ -45653,6 +46095,7 @@ GameObject:
   - component: {fileID: 1849213195}
   - component: {fileID: 1849213196}
   - component: {fileID: 1849213197}
+  - component: {fileID: 1849213198}
   m_Layer: 0
   m_Name: Piece_0 (10)
   m_TagString: Untagged
@@ -45779,6 +46222,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &1849213198
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849213194}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1851028422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47285,7 +47740,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!4 &1967948965 stripped
 Transform:
@@ -48153,7 +48608,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &1998382562
 PrefabInstance:
@@ -48265,6 +48720,7 @@ GameObject:
   - component: {fileID: 2005457759}
   - component: {fileID: 2005457760}
   - component: {fileID: 2005457761}
+  - component: {fileID: 2005457762}
   m_Layer: 0
   m_Name: Piece_0 (29)
   m_TagString: Untagged
@@ -48391,6 +48847,18 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!210 &2005457762
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005457758}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &2020583705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48734,7 +49202,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &2053328766
 PrefabInstance:
@@ -50485,7 +50953,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 1
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &2140802595
 PrefabInstance:
