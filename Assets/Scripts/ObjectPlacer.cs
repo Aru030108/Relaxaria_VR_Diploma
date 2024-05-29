@@ -5,15 +5,15 @@ using UnityEngine.UI;
 
 public class ObjectPlacer : MonoBehaviour
 {
-    public GameObject[] largeObjects; // Массив для больших объектов (кубы)
-    public GameObject[] mediumObjects; // Массив для средних объектов (конусы)
-    public GameObject[] smallObjects; // Массив для маленьких объектов (кольца)
+    public GameObject[] largeObjects; // Array for large objects (cubes)
+    public GameObject[] mediumObjects; // Array for medium objects (cones)
+    public GameObject[] smallObjects; // Array for small objects (rings)
 
-    public Transform[] positions; // Массив для позиций, куда будут размещены объекты
-    public Text feedbackText; // UI элемент для отображения сообщений
-    public Text congratsText; // UI элемент для отображения поздравлений
+    public Transform[] positions; // Array for the positions where the objects will be placed
+    public Text feedbackText; // UI element for displaying messages
+    public Text congratsText; 
 
-    private int correctPlacements = 0; // Счетчик правильных размещений
+    private int correctPlacements = 0; // The counter of correct placements
 
     void Start()
     {
@@ -26,27 +26,27 @@ public class ObjectPlacer : MonoBehaviour
         int totalObjects = largeObjects.Length + mediumObjects.Length + smallObjects.Length;
         if (positions.Length < totalObjects)
         {
-            Debug.LogError("Недостаточно позиций для размещения всех объектов!");
+            Debug.LogError("There are not enough positions to place all the objects!");
             return;
         }
 
         int index = 0;
 
-        // Размещаем большие объекты (кубы)
+        // Placing large objects (cubes)
         foreach (GameObject obj in largeObjects)
         {
             Instantiate(obj, positions[index].position, Quaternion.identity);
             index++;
         }
 
-        // Размещаем средние объекты (конусы)
+        // Placing medium objects (cones)
         foreach (GameObject obj in mediumObjects)
         {
             Instantiate(obj, positions[index].position, Quaternion.identity);
             index++;
         }
 
-        // Размещаем маленькие объекты (кольца)
+        // Placing small objects (rings)
         foreach (GameObject obj in smallObjects)
         {
             Instantiate(obj, positions[index].position, Quaternion.identity);
@@ -56,23 +56,23 @@ public class ObjectPlacer : MonoBehaviour
 
     public void CheckPlacement(GameObject placedObject, Transform targetPosition)
     {
-        // Проверка правильности позиции
+        // --------------------------Checking the correctness of the position------------------------------------
         if (Vector3.Distance(placedObject.transform.position, targetPosition.position) < 0.5f)
         {
             correctPlacements++;
             feedbackText.text = "Right!";
-            Destroy(placedObject); // Убираем объект после правильного размещения
+            Destroy(placedObject); // We remove the object after proper placement
         }
         else
         {
             feedbackText.text = "That`s wrong!";
         }
 
-        // Проверка завершения игры
+        // ---------------Checking the completion of the game-----------------------------------------------
         if (correctPlacements == largeObjects.Length + mediumObjects.Length + smallObjects.Length)
         {
             congratsText.gameObject.SetActive(true);
-            feedbackText.text = ""; // Очистка текстового поля для сообщений
+            feedbackText.text = ""; // Clearing the text field for messages
         }
     }
 }
