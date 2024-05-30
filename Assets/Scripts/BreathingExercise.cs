@@ -73,7 +73,7 @@ public class BreathingExercise : MonoBehaviour
                         timer = 0.0f;
                         UpdateSphereColor();
                         UpdateSphereText("Hold your breath");
-                        PlayPhaseSound(1); // Звук для задержки дыхания
+                        PlayPhaseSound(1); // Sound for holding your breath
                         if (inhaleParticles != null) inhaleParticles.Stop();
                     }
                     break;
@@ -84,7 +84,7 @@ public class BreathingExercise : MonoBehaviour
                         timer = 0.0f;
                         UpdateSphereColor();
                         UpdateSphereText("Exhale");
-                        PlayPhaseSound(2); // Звук для выдоха
+                        PlayPhaseSound(2); // Exhale sound
                         if (exhaleParticles != null) exhaleParticles.Play();
                     }
                     break;
@@ -96,7 +96,7 @@ public class BreathingExercise : MonoBehaviour
                         timer = 0.0f;
                         UpdateSphereColor();
                         UpdateSphereText("Inhale");
-                        PlayPhaseSound(0); // Звук для вдоха
+                        PlayPhaseSound(0); // Inhale sound
                         if (exhaleParticles != null) exhaleParticles.Stop();
                         if (inhaleParticles != null) inhaleParticles.Play();
                     }

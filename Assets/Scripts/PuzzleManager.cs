@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; // Добавьте эту строку
+using TMPro;
 
 public class PuzzleManager : MonoBehaviour
 {
-    public GameObject puzzlePiecePrefab; // Префаб куба
-    public int puzzleSize = 4; // Размер пазла (например, 4x4)
-    public float pieceSize = 1.0f; // Размер одной части пазла
-    public TextMeshPro congratsText; // Текст поздравления
+    public GameObject puzzlePiecePrefab; // Prefab cube
+    public int puzzleSize = 4; 
+    public float pieceSize = 1.0f; // The size of one piece of the puzzle
+    public TextMeshPro congratsText; 
 
     private List<GameObject> puzzlePieces = new List<GameObject>();
     private Vector3[] correctPositions;
 
     void Start()
     {
-        congratsText.gameObject.SetActive(false); // Скрыть текст поздравления в начале
+        congratsText.gameObject.SetActive(false); // Hide the text of the greeting at the beginning
         CreatePuzzle();
     }
 
@@ -28,29 +28,29 @@ public class PuzzleManager : MonoBehaviour
         {
             for (int x = 0; x < puzzleSize; x++)
             {
-                // Создайте новую часть пазла
+                // Create a new piece of the puzzle
                 GameObject piece = Instantiate(puzzlePiecePrefab, new Vector3(x * pieceSize, y * pieceSize, 0), Quaternion.identity);
                 piece.name = $"PuzzlePiece_{x}_{y}";
                 puzzlePieces.Add(piece);
 
-                // Сохраните правильную позицию
+                // Save the correct position
                 correctPositions[index] = piece.transform.position;
                 index++;
 
-                // Примените текстуру к части пазла
+                // Apply texture to a piece of the puzzle
                 Material pieceMaterial = new Material(Shader.Find("Unlit/Texture"));
                 pieceMaterial.mainTexture = Resources.Load<Texture2D>($"PuzzleImages/part_{y * puzzleSize + x}");
 
-                // Примените материал к кубу
+                // Apply the material to the cube
                 Renderer renderer = piece.GetComponent<Renderer>();
                 renderer.material = pieceMaterial;
 
-                // Добавьте компонент для перетаскивания
+                // Add a drag and drop component
                 piece.AddComponent<PuzzlePiece>().manager = this;
             }
         }
 
-        // Перемешайте пазл
+        
         ShufflePuzzle();
     }
 
@@ -76,7 +76,7 @@ public class PuzzleManager : MonoBehaviour
 
         if (isComplete)
         {
-            congratsText.gameObject.SetActive(true); // Показать текст поздравления
+            congratsText.gameObject.SetActive(true); 
         }
     }
 }
