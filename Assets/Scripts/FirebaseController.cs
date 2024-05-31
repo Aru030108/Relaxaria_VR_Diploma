@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using TMPro.EditorUtilities;
 
 public class FirebaseController : MonoBehaviour
 {
-    public GameObject LoginPanel, SignUpPanel, ProfilePanel, forgetPasswordPanel;
+    public GameObject LoginPanel, SignUpPanel, ProfilePanel, forgetPasswordPanel, NotificationPanel;
 
     public TMP_InputField LoginEmail, LogInPassword, SignUpEmail, SignUpPassword, SignUpConfirmPassword, SignUpUserName, forgetPassEmail;
+
+    public TMP_Text notif_Title_Text, notif_Message_Text;
 
     public void OpenLoginPanel()
     {
@@ -47,6 +50,7 @@ public class FirebaseController : MonoBehaviour
     {
         if(string.IsNullOrEmpty(LoginEmail.text)&&string.IsNullOrEmpty(LogInPassword.text))
         {
+            showNotificationMessage("Error", "Fields Empty! Please, Input details in all Fields");
             return;
         }
         //Do login
@@ -56,6 +60,7 @@ public class FirebaseController : MonoBehaviour
     {
         if (string.IsNullOrEmpty(SignUpEmail.text) && string.IsNullOrEmpty(SignUpPassword.text)&&string.IsNullOrEmpty(SignUpUserName.text))
         {
+            showNotificationMessage("Error", "Fields Empty! Please, Input details in all Fields");
             return;
         }
         //Do SignUp
@@ -66,10 +71,28 @@ public class FirebaseController : MonoBehaviour
     {
         if (string.IsNullOrEmpty(forgetPassEmail.text))
         {
+            showNotificationMessage("Error", "Fields Empty! Please, Input details in all Fields");
             return;
         }
-        //Do SignUp
+        //Do ForgetPass
     }
+
+    public void showNotificationMessage(string title, string message)
+    {
+        notif_Title_Text.text = "" + title;
+        notif_Message_Text.text = "" + message;
+
+        NotificationPanel.SetActive(true);
+    }
+
+    public void CloseNotificationMessage()
+    {
+        notif_Title_Text.text = "";
+        notif_Message_Text.text = "";
+
+        NotificationPanel.SetActive(false);
+    }
+
 
 }
 
