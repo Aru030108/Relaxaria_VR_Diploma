@@ -11,7 +11,9 @@ public class FirebaseController : MonoBehaviour
 
     public TMP_InputField LoginEmail, LogInPassword, SignUpEmail, SignUpPassword, SignUpConfirmPassword, SignUpUserName, forgetPassEmail;
 
-    public TMP_Text notif_Title_Text, notif_Message_Text;
+    public TMP_Text notif_Title_Text, notif_Message_Text, ProfileUserName_Text, ProfileUserEmail_Text;
+
+    public Toggle rememberMe;
 
     public void OpenLoginPanel()
     {
@@ -92,6 +94,15 @@ public class FirebaseController : MonoBehaviour
 
         NotificationPanel.SetActive(false);
     }
+
+    public void LogOut()
+    {
+        //ProfilePanel.SetActive(false);
+        ProfileUserEmail_Text.text= "";
+        ProfileUserName_Text.text= "";
+        OpenLoginPanel();
+    }
+
 
 
 }
