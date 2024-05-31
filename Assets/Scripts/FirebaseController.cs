@@ -6,15 +6,16 @@ using TMPro;
 
 public class FirebaseController : MonoBehaviour
 {
-    public GameObject LoginPanel, SignUpPanel, ProfilePanel;
+    public GameObject LoginPanel, SignUpPanel, ProfilePanel, forgetPasswordPanel;
 
-    public TMP_InputField LoginEmail, LogInPassword, SignUpEmail, SignUpPassword, SignUpConfirmPassword, SignUpUserName;
+    public TMP_InputField LoginEmail, LogInPassword, SignUpEmail, SignUpPassword, SignUpConfirmPassword, SignUpUserName, forgetPassEmail;
 
     public void OpenLoginPanel()
     {
         LoginPanel.SetActive(true);
         SignUpPanel.SetActive(false);
         ProfilePanel.SetActive(false);
+        forgetPasswordPanel.SetActive(false);
     }
 
     public void OpenSignUpPanel()
@@ -22,6 +23,7 @@ public class FirebaseController : MonoBehaviour
         LoginPanel.SetActive(false);
         SignUpPanel.SetActive(true);
         ProfilePanel.SetActive(false);
+        forgetPasswordPanel.SetActive(false);
     }
 
     public void OpenProfilePanel()
@@ -29,7 +31,17 @@ public class FirebaseController : MonoBehaviour
         LoginPanel.SetActive(false);
         SignUpPanel.SetActive(false);
         ProfilePanel.SetActive(true);
+        forgetPasswordPanel.SetActive(false);
     }
+
+    public void OpenforgetPasswordPanel()
+    {
+        LoginPanel.SetActive(false);
+        SignUpPanel.SetActive(false);
+        ProfilePanel.SetActive(false);
+        forgetPasswordPanel.SetActive(true);
+    }
+
 
     public void LoginUser()
     {
@@ -43,6 +55,16 @@ public class FirebaseController : MonoBehaviour
     public void SignUpUser()
     {
         if (string.IsNullOrEmpty(SignUpEmail.text) && string.IsNullOrEmpty(SignUpPassword.text)&&string.IsNullOrEmpty(SignUpUserName.text))
+        {
+            return;
+        }
+        //Do SignUp
+    }
+
+
+    public void forgetPassword()
+    {
+        if (string.IsNullOrEmpty(forgetPassEmail.text))
         {
             return;
         }

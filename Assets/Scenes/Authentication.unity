@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1078824
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3002,7 +3002,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 541388260}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2091978423}
+        m_TargetAssemblyTypeName: FirebaseController, Assembly-CSharp
+        m_MethodName: OpenforgetPasswordPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &541388260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4161,7 +4173,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 816407265}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2091978423}
+        m_TargetAssemblyTypeName: FirebaseController, Assembly-CSharp
+        m_MethodName: LoginUser
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &816407265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8253,7 +8277,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1351036165}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2091978423}
+        m_TargetAssemblyTypeName: FirebaseController, Assembly-CSharp
+        m_MethodName: OpenSignUpPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1379193140
 GameObject:
   m_ObjectHideFlags: 0
@@ -9508,7 +9544,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1572284938
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13726,12 +13762,14 @@ MonoBehaviour:
   LoginPanel: {fileID: 1078823}
   SignUpPanel: {fileID: 885291016}
   ProfilePanel: {fileID: 1572284937}
+  forgetPasswordPanel: {fileID: 0}
   LoginEmail: {fileID: 2044936322}
   LogInPassword: {fileID: 1382684388}
   SignUpEmail: {fileID: 1830840813}
   SignUpPassword: {fileID: 1410649446}
   SignUpConfirmPassword: {fileID: 360357023}
   SignUpUserName: {fileID: 1450747910}
+  forgetPassEmail: {fileID: 0}
 --- !u!1 &2136403339
 GameObject:
   m_ObjectHideFlags: 0
