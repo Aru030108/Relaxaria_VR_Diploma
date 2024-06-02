@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using TMPro.EditorUtilities;
+using static UnityEngine.UIElements.UxmlAttributeDescription;
+using System.Net.Mail;
+using UnityEngine.Tilemaps;
 
 public class FirebaseController : MonoBehaviour
 {
@@ -143,6 +146,42 @@ public class FirebaseController : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 result.User.DisplayName, result.User.UserId);
         });
+    }
+
+
+
+    void InitializeFirebase()
+    {
+        auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
+        auth.StateChanged += AuthStateChanged;
+        AuthStateChanged(this, null);
+    }
+
+    void AuthStateChanged(object sender, System.EventArgs eventArgs)
+    {
+        if (auth.CurrentUser != user)
+        {
+            bool signedIn = user != auth.CurrentUser && auth.CurrentUser != null
+                && auth.CurrentUser.IsValid();
+            if (!signedIn && user != null)
+            {
+                DebugLog("Signed out " + user.UserId);
+            }
+            user = auth.CurrentUser;
+            if (signedIn)
+            {
+                DebugLog("Signed in " + user.UserId);
+                displayName = user.DisplayName ?? "";
+                emailAddress = user.Email ?? "";
+                photoUrl = user.PhotoUrl ?? "";
+            }
+        }
+    }
+
+    void OnDestroy()
+    {
+        auth.StateChanged -= AuthStateChanged;
+        auth = null;
     }
 
 
