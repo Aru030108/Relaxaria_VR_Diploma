@@ -181,12 +181,12 @@ public class FirebaseController : MonoBehaviour
                 && auth.CurrentUser.IsValid();
             if (!signedIn && user != null)
             {
-                DebugLog("Signed out " + user.UserId);
+                Debug.Log("Signed out " + user.UserId);
             }
             user = auth.CurrentUser;
             if (signedIn)
             {
-                DebugLog("Signed in " + user.UserId);
+                Debug.Log("Signed in " + user.UserId);
                 //displayName = user.DisplayName ?? "";
                 //emailAddress = user.Email ?? "";
                 //photoUrl = user.PhotoUrl ?? "";
