@@ -25,6 +25,11 @@ public class FirebaseController : MonoBehaviour
     Firebase.Auth.FirebaseAuth auth;
     Firebase.Auth.FirebaseUser user;
 
+    private void Start()
+    {
+        
+    }
+
 
     public void OpenLoginPanel()
     {
