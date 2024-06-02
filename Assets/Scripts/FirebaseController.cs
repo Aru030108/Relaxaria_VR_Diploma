@@ -7,6 +7,10 @@ using TMPro.EditorUtilities;
 using static UnityEngine.UIElements.UxmlAttributeDescription;
 using System.Net.Mail;
 using UnityEngine.Tilemaps;
+using Firebase;
+using Firebase.Auth;
+using System;
+using System.Threading.Tasks;
 
 public class FirebaseController : MonoBehaviour
 {
@@ -17,6 +21,10 @@ public class FirebaseController : MonoBehaviour
     public TMP_Text notif_Title_Text, notif_Message_Text, ProfileUserName_Text, ProfileUserEmail_Text;
 
     public Toggle rememberMe;
+
+    Firebase.Auth.FirebaseAuth auth;
+    Firebase.Auth.FirebaseUser user;
+
 
     public void OpenLoginPanel()
     {
@@ -59,6 +67,7 @@ public class FirebaseController : MonoBehaviour
             return;
         }
         //Do login
+        SignInUser(LoginEmail.text, LogInPassword.text);
     }
 
     public void SignUpUser()
@@ -69,6 +78,7 @@ public class FirebaseController : MonoBehaviour
             return;
         }
         //Do SignUp
+        CreateUser(SignUpEmail.text, SignUpPassword.text, SignUpUserName.text);
     }
 
 
@@ -106,7 +116,7 @@ public class FirebaseController : MonoBehaviour
         OpenLoginPanel();
     }
 
-    void CreateUser(string email, string password)
+    void CreateUser(string email, string password, string Username)
     {
         auth.CreateUserWithEmailAndPasswordAsync(email, password).ContinueWith(task => {
             if (task.IsCanceled)
@@ -124,6 +134,8 @@ public class FirebaseController : MonoBehaviour
             Firebase.Auth.AuthResult result = task.Result;
             Debug.LogFormat("Firebase user created successfully: {0} ({1})",
                 result.User.DisplayName, result.User.UserId);
+
+            UpdateUserProfile(Username);
         });
     }
 
@@ -145,6 +157,9 @@ public class FirebaseController : MonoBehaviour
             Firebase.Auth.AuthResult result = task.Result;
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 result.User.DisplayName, result.User.UserId);
+
+            ProfileUserName_Text.text = "" + newUser.DisplayName;
+            OpenProfilePanel();
         });
     }
 
@@ -171,9 +186,9 @@ public class FirebaseController : MonoBehaviour
             if (signedIn)
             {
                 DebugLog("Signed in " + user.UserId);
-                displayName = user.DisplayName ?? "";
-                emailAddress = user.Email ?? "";
-                photoUrl = user.PhotoUrl ?? "";
+                //displayName = user.DisplayName ?? "";
+                //emailAddress = user.Email ?? "";
+                //photoUrl = user.PhotoUrl ?? "";
             }
         }
     }
@@ -185,5 +200,32 @@ public class FirebaseController : MonoBehaviour
     }
 
 
+    void UpdateUserProfile(string UserName)
+    {
+        Firebase.Auth.FirebaseUser user = auth.CurrentUser;
+        if (user != null)
+        {
+            Firebase.Auth.UserProfile profile = new Firebase.Auth.UserProfile
+            {
+                DisplayName = UserName,
+                PhotoUrl = new System.Uri("https://via.placeholder.com/150"),
+            };
+            //https://via.placeholder.com/150C/0%20https://placeholder.com/
+            user.UpdateUserProfileAsync(profile).ContinueWith(task => {
+                if (task.IsCanceled)
+                {
+                    Debug.LogError("UpdateUserProfileAsync was canceled.");
+                    return;
+                }
+                if (task.IsFaulted)
+                {
+                    Debug.LogError("UpdateUserProfileAsync encountered an error: " + task.Exception);
+                    return;
+                }
+
+                Debug.Log("User profile updated successfully.");
+            });
+        }
+    }
 }
 
