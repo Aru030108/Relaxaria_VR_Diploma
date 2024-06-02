@@ -159,6 +159,7 @@ public class FirebaseController : MonoBehaviour
                 result.User.DisplayName, result.User.UserId);
 
             ProfileUserName_Text.text = "" + newUser.DisplayName;
+            ProfileUserEmail_Text.text = "" + newUser.Email;
             OpenProfilePanel();
         });
     }
@@ -224,6 +225,8 @@ public class FirebaseController : MonoBehaviour
                 }
 
                 Debug.Log("User profile updated successfully.");
+
+                showNotificationMessage("Alert", "Account Successfully Created");
             });
         }
     }
