@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "742695840309",
+    "project_id": "relaxaria-vr-diploma-7b65a",
+    "storage_bucket": "relaxaria-vr-diploma-7b65a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742695840309:android:c37a6dfa07f1748e815f7c",
+        "android_client_info": {
+          "package_name": "com.Relaxaria.VR_Diploma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdh6icTDGpS3Zkio6RGBkK0o24HxEB3rY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
