@@ -25,7 +25,7 @@ public class FirebaseController : MonoBehaviour
     Firebase.Auth.FirebaseAuth auth;
     Firebase.Auth.FirebaseUser user;
 
-    private void Start()
+    void Start()
     {
         
     }
@@ -159,9 +159,9 @@ public class FirebaseController : MonoBehaviour
                 return;
             }
 
-            Firebase.Auth.AuthResult result = task.Result;
+            Firebase.Auth.FirebaseUser newUser = task.Result;
             Debug.LogFormat("User signed in successfully: {0} ({1})",
-                result.User.DisplayName, result.User.UserId);
+                newUser.DisplayName, newUser.UserId);
 
             ProfileUserName_Text.text = "" + newUser.DisplayName;
             ProfileUserEmail_Text.text = "" + newUser.Email;
