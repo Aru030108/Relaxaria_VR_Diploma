@@ -47752,7 +47752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Were there any moments when you had to work hard to overcome difficulties
+  m_text: 'Were there any moments when you had to make any efforts to overcome difficulties
     in the game?
 
 '
@@ -65755,7 +65755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1765481084
 RectTransform:
   m_ObjectHideFlags: 0
