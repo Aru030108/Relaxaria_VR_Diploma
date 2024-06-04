@@ -11,6 +11,7 @@ using Firebase;
 using Firebase.Auth;
 using System;
 using System.Threading.Tasks;
+using Unity.Firebase;
 
 public class FirebaseController : MonoBehaviour
 {
@@ -22,15 +23,37 @@ public class FirebaseController : MonoBehaviour
 
     public Toggle rememberMe;
 
-    Firebase.Auth.FirebaseAuth auth;
-    Firebase.Auth.FirebaseUser user;
+    //Firebase.Auth.FirebaseAuth auth;
+    //Firebase.Auth.FirebaseUser user;
 
+void Awake(){
+
+    FirebaseInit();
+}
     void Start()
     {
+
         
     }
 
 
+
+void FirebaseInit(){
+    Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task => {
+  var dependencyStatus = task.Result;
+  if (dependencyStatus == Firebase.DependencyStatus.Available) {
+    // Create and hold a reference to your FirebaseApp,
+    // where app is a Firebase.FirebaseApp property of your application class.
+       app = Firebase.FirebaseApp.DefaultInstance;
+
+    // Set a flag here to indicate whether Firebase is ready to use by your app.
+  } else {
+    UnityEngine.Debug.LogError(System.String.Format(
+      "Could not resolve all Firebase dependencies: {0}", dependencyStatus));
+    // Firebase Unity SDK is not safe to use here.
+  }
+});
+}
     public void OpenLoginPanel()
     {
         LoginPanel.SetActive(true);
