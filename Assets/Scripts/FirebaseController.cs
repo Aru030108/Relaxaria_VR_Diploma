@@ -159,12 +159,12 @@ public class FirebaseController : MonoBehaviour
                 return;
             }
 
-            Firebase.Auth.FirebaseUser newUser = task.Result;
+            Firebase.Auth.AuthResult result = task.Result;//FirebaseUser newUser
             Debug.LogFormat("User signed in successfully: {0} ({1})",
-                newUser.DisplayName, newUser.UserId);
+                 result.User.DisplayName, result.User.UserId);//newUser without result
 
-            ProfileUserName_Text.text = "" + newUser.DisplayName;
-            ProfileUserEmail_Text.text = "" + newUser.Email;
+            ProfileUserName_Text.text = "" + result.User.DisplayName;//newUser
+            ProfileUserEmail_Text.text = "" + result.User.Email;
             OpenProfilePanel();
         });
     }
