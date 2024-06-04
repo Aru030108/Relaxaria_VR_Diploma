@@ -16,20 +16,6 @@ dependencyResolutionManagement {
         **ARTIFACTORYREPOSITORY**
         google()
         mavenCentral()
-<<<<<<< Updated upstream
-=======
-// Android Resolver Repos Start
-        def unityProjectPath = $/file:///**DIR_UNITYPROJECT**/$.replace("\\", "/")
-        maven {
-<<<<<<< Updated upstream
-            url (unityProjectPath + "/Assets/GeneratedLocalRepo/Firebase/m2repository") // Assets/firebase/Editor/AppDependencies.xml:22, Assets/firebase/Editor/AuthDependencies.xml:20
-=======
-            url (unityProjectPath + "/Assets/GeneratedLocalRepo/Firebase/m2repository") // Assets/Firebase/Editor/AppDependencies.xml:22, Assets/Firebase/Editor/AuthDependencies.xml:20
->>>>>>> Stashed changes
-        }
-        mavenLocal()
-// Android Resolver Repos End
->>>>>>> Stashed changes
         flatDir {
             dirs "${project(':unityLibrary').projectDir}/libs"
         }
